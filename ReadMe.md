@@ -9,8 +9,12 @@ root + /tools
         scripts for maintanance.
      + /zstd
         zstd-ed files which contains mateN situations and results.
+     + /zstd_split
+        zstd-ed splitted files which contains mateN situations and results.
      + /merged
        raw text files which contains mateN situations and results.
+     + /split
+       splitted raw text files which contains mateN situations and results.
 ```
 
 ---
