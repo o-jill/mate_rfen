@@ -22,7 +22,7 @@ root + /tools
    `tools/concat_splitted.rb` is available.  
 1. Append the new data to the file.  
    `tools/usu.rb` is available.  
-2. Split the updated file to keep each part less than 10MB.  
+2. Split the updated file to keep each part less than 100MB.  
    `tools/split_by_leading_char.rb` is available.  
 
 ---
