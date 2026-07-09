@@ -11,6 +11,10 @@ def input_pattern(index)
   format("mate%02d*.txt", index)
 end
 
+def input_dir(index)
+  IN_DIR + format("%02d", index)
+end
+
 def output_path(index)
   File.join(OUT_DIR, "mate#{index}.txt")
 end
@@ -20,8 +24,10 @@ start_time = Time.now
 Dir.mkdir(OUT_DIR) unless Dir.exist?(OUT_DIR)
 
 (FROM..TO).each do |index|
-  pattern = File.join(IN_DIR, input_pattern(index))
+  pattern = File.join(input_dir(index), input_pattern(index))
   input_files = Dir.glob(pattern).sort
+  # p pattern
+  # p input_files
   output_file = output_path(index)
 
   File.delete(output_file) if File.exist?(output_file)
