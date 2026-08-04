@@ -673,6 +673,8 @@ TABLE_PATTERN = [
   "Al",
   "aM",
   "Am",
+  "An",
+  "aN",
   "A",
   "a",
 
@@ -1177,6 +1179,8 @@ TABLE_PATTERN = [
   "gAaE",
   "GaAf",
   "gAaF",
+  "GaAg",
+  "gAaG",
   "GaA",
   "gAa",
   "GaBaAa",
@@ -1235,6 +1239,8 @@ TABLE_PATTERN = [
   "GaE",
   "GaF1",
   "gAf1",
+  "GaFa1",
+  "gAfA1",
   "GaFaA",
   "gAfAa",
   "GaFa",
@@ -1567,6 +1573,8 @@ TABLE_PATTERN = [
   "iBc",
   "IbD",
   "iBd",
+  "iBe",
+  "IbE",
   "iB",
   "Ib",
   "IcAa1",
@@ -1595,6 +1603,8 @@ TABLE_PATTERN = [
   "iE2",
   "iEa1",
   "IeA1",
+  "iEaAaA",
+  "IeAaAa",
   "iEaAa",
   "IeAaA",
   "iEaA",
@@ -1650,6 +1660,8 @@ TABLE_PATTERN = [
   "JaAbB",
   "jAaB",
   "JaAb",
+  "JaAc",
+  "jAaC",
   "JaA",
   "jAa",
   "JaBa1",
@@ -1698,6 +1710,8 @@ TABLE_PATTERN = [
   "JbC",
   "jBd",
   "JbD",
+  "jBe",
+  "JbE",
   "jB",
   "Jb",
   "jCa",
@@ -1716,6 +1730,8 @@ TABLE_PATTERN = [
   "Jd2",
   "JdA1",
   "jDa1",
+  "jDaAaA",
+  "JdAaAa",
   "jDaAa",
   "JdAaA",
   "JdAa",
@@ -1771,6 +1787,8 @@ TABLE_PATTERN = [
 
   "Ka1",
   "kA1",
+  "KaAa",
+  "kAaA",
   "KaA",
   "kAa",
   "Ka",
@@ -1792,6 +1810,8 @@ TABLE_PATTERN = [
   "K",
   "k",
 
+  "lAa",
+  "LaA",
   "lA",
   "La",
   "lB1",
@@ -1800,6 +1820,8 @@ TABLE_PATTERN = [
   "Lba",
   "lBb",
   "LbB",
+  "lBc",
+  "LbC",
   "lB",
   "Lb",
   "Lc",
@@ -1826,8 +1848,13 @@ TABLE_PATTERN = [
   "M",
   "m",
 
+  "n1",
+  "N1",
+  "nA",
+  "Na",
   "n",
   "N",
+
   "o1",
   "O1",
   "oAa",
@@ -1850,8 +1877,12 @@ TABLE_PATTERN = [
 
   "R",
   "r",
+
+  "Sa",
+  "sA",
   "S",
   "s",
+
   "T",
   "t",
   "U",
@@ -1951,20 +1982,6 @@ def savelinesonce(inputpath, placeholder)
   end
 end
 
-starttime = Time.now
-
-# ファイルサイズで処理を分ける
-fsize = File.size(inputpath)
-puts "file size: #{fsize}"
-eta = fsize * 3.45e-6
-puts "estimated processing time: #{put_duration(eta)}"
-
-# if fsize >= 4 * 1024 * 1024
-  savelinebyline(inputpath, placeholder)
-# else
-#   savelinesonce(inputpath, placeholder)
-# end
-
 # 経過秒を読みやすくする
 #
 # - a Float seconds
@@ -1976,7 +1993,8 @@ puts "estimated processing time: #{put_duration(eta)}"
 # ex. a=304000
 # "3d12:26:40.000"
 def put_duration(a)
-  t = Time.at(a, 0, :usec)
+  t = Time.at(a, 0, in: "UTC")
+#  t = Time.at(a, 0, :usec)
   sec_day = 24 * 3600
   days = (a / sec_day).to_i
 
@@ -1984,6 +2002,21 @@ def put_duration(a)
 
   t.strftime("%H:%M:%S.%L")
 end
+
+starttime = Time.now
+
+# ファイルサイズで処理を分ける
+fsize = File.size(inputpath)
+puts "file size: #{fsize}"
+eta = fsize * 3.45e-6
+puts "#{eta} sec"
+puts "estimated processing time: #{put_duration(eta.to_f)}"
+
+# if fsize >= 4 * 1024 * 1024
+  savelinebyline(inputpath, placeholder)
+# else
+#   savelinesonce(inputpath, placeholder)
+# end
 
 endtime = Time.now
 elapsedtime = endtime - starttime
