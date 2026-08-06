@@ -162,6 +162,8 @@ TABLE_PATTERN = [
   "1M",
   "1n",
   "1N",
+  "1o",
+  "1O",
   "1",
 
   "2a1",
@@ -174,6 +176,10 @@ TABLE_PATTERN = [
   "2B",
   "2c",
   "2C",
+  "2d1",
+  "2D1",
+  "2dA",
+  "2Da",
   "2d",
   "2D",
   "2e1",
@@ -263,6 +269,10 @@ TABLE_PATTERN = [
   "a1g",
   "A1G",
   "A1g",
+  "a1H",
+  "a1h",
+  "A1H",
+  "A1h",
   "a1",
   "A1",
   "a2A",
@@ -321,6 +331,8 @@ TABLE_PATTERN = [
   "aAf1",
   "AaFa",
   "aAfA",
+  "AaFb",
+  "aAfB",
   "AaF",
   "aAf",
   "aAg1",
@@ -329,12 +341,16 @@ TABLE_PATTERN = [
   "AaGa",
   "aAgBa",
   "AaGbA",
+  "aAgBb",
+  "AaGbB",
   "aAgB",
   "AaGb",
   "aAgC",
   "AaGc",
   "aAgD",
   "AaGd",
+  "aAgEa",
+  "AaGeA",
   "aAgE",
   "AaGe",
   "AaG",
@@ -347,6 +363,8 @@ TABLE_PATTERN = [
   "aAj",
   "aAk",
   "AaK",
+  "aAl",
+  "AaL",
   "aA",
   "Aa",
   "Ab1",
@@ -399,6 +417,8 @@ TABLE_PATTERN = [
   "aDbAa",
   "AdB",
   "aDb",
+  "AdC",
+  "aDc",
   "aD",
   "Ad",
   "Ae1A",
@@ -415,6 +435,8 @@ TABLE_PATTERN = [
   "aE2",
   "AeA1",
   "aEa1",
+  "AeAaA",
+  "aEaAa",
   "AeAa",
   "aEaA",
   "AeA",
@@ -2009,7 +2031,7 @@ starttime = Time.now
 fsize = File.size(inputpath)
 puts "file size: #{fsize}"
 eta = fsize * 3.45e-6
-puts "#{eta} sec"
+# puts "#{eta} sec"
 puts "estimated processing time: #{put_duration(eta.to_f)}"
 
 # if fsize >= 4 * 1024 * 1024
