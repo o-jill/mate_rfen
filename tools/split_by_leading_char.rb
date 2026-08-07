@@ -24,6 +24,10 @@ TABLE_PATTERN = [
   "1a1A",
   "1A1a",
   "1a1a",
+  "1A1B",
+  "1a1B",
+  "1A1b",
+  "1a1b",
   "1A1",
   "1a1",
   "1Aa",
@@ -62,6 +66,10 @@ TABLE_PATTERN = [
   "1Da",
   "1d",
   "1D",
+  "1E1A",
+  "1e1A",
+  "1E1a",
+  "1e1a",
   "1E1",
   "1e1",
   "1E2",
@@ -78,6 +86,10 @@ TABLE_PATTERN = [
   "1F1a",
   "1f1A",
   "1F1A",
+  "1f1b",
+  "1F1b",
+  "1f1B",
+  "1F1B",
   "1f1",
   "1F1",
   "1fA1",
@@ -112,6 +124,10 @@ TABLE_PATTERN = [
   "1G1G",
   "1G1",
   "1g1",
+  "1G2A",
+  "1g2A",
+  "1G2a",
+  "1g2a",
   "1G2",
   "1g2",
   "1gA1A",
@@ -140,6 +156,10 @@ TABLE_PATTERN = [
   "1gF",
   "1g",
   "1G",
+  "1H1A",
+  "1h1A",
+  "1H1a",
+  "1h1a",
   "1H1",
   "1h1",
   "1Ha",
@@ -170,6 +190,8 @@ TABLE_PATTERN = [
   "2A1",
   "2aA",
   "2Aa",
+  "2aB",
+  "2Ab",
   "2a",
   "2A",
   "2b",
@@ -313,6 +335,8 @@ TABLE_PATTERN = [
   "aAd1a",
   "AaD1",
   "aAd1",
+  "AaD2",
+  "aAd2",
   "AaD",
   "aAd",
   "aAe1A",
@@ -625,6 +649,8 @@ TABLE_PATTERN = [
   "aGbD",
   "AgBe",
   "aGbE",
+  "AgBfAaA",
+  "aGbFaAa",
   "AgBfAa",
   "aGbFaA",
   "AgBfA",
@@ -1177,6 +1203,8 @@ TABLE_PATTERN = [
   "gAaAb",
   "GaAa",
   "gAaA",
+  "GaAbAa",
+  "gAaBaA",
   "GaAbA",
   "gAaBa",
   "GaAbB",
@@ -1201,6 +1229,8 @@ TABLE_PATTERN = [
   "gAaE",
   "GaAf",
   "gAaF",
+  "GaAgA",
+  "gAaGa",
   "GaAg",
   "gAaG",
   "GaA",
@@ -1231,12 +1261,16 @@ TABLE_PATTERN = [
   "gAbCaBa",
   "GaBcA",
   "gAbCa",
+  "GaBcBaA",
+  "gAbCbAa",
   "GaBcBa",
   "gAbCbA",
   "GaBcB",
   "gAbCb",
   "GaBc",
   "gAbC",
+  "GaBdA",
+  "gAbDa",
   "GaBd",
   "gAbD",
   "GaBfA",
@@ -1271,6 +1305,8 @@ TABLE_PATTERN = [
   "gAfBa",
   "GaFbB",
   "gAfBb",
+  "GaFbC",
+  "gAfBc",
   "GaFb",
   "gAfB",
   "gAf",
@@ -1416,8 +1452,12 @@ TABLE_PATTERN = [
   "hAaD1",
   "HaAdA",
   "hAaDa",
+  "HaAdB1",
+  "hAaDb1",
   "HaAdBa",
   "hAaDbA",
+  "HaAdBb",
+  "hAaDbB",
   "HaAdB",
   "hAaDb",
   "HaAd",
@@ -1444,6 +1484,10 @@ TABLE_PATTERN = [
   "HaCb",
   "hAc",
   "HaC",
+  "hAdA1",
+  "HaDa1",
+  "hAdAa",
+  "HaDaA",
   "hAdA",
   "HaDa",
   "hAd",
@@ -1597,6 +1641,8 @@ TABLE_PATTERN = [
   "iBd",
   "iBe",
   "IbE",
+  "iBf",
+  "IbF",
   "iB",
   "Ib",
   "IcAa1",
@@ -1676,10 +1722,14 @@ TABLE_PATTERN = [
   "JaAa",
   "jAaB1",
   "JaAb1",
+  "jAaBaA",
+  "JaAbAa",
   "jAaBa",
   "JaAbA",
   "jAaBb",
   "JaAbB",
+  "jAaBc",
+  "JaAbC",
   "jAaB",
   "JaAb",
   "JaAc",
@@ -1694,6 +1744,8 @@ TABLE_PATTERN = [
   "jAbAb",
   "JaBaC",
   "jAbAc",
+  "JaBaD",
+  "jAbAd",
   "JaBa",
   "jAbA",
   "JaBb",
@@ -1752,10 +1804,14 @@ TABLE_PATTERN = [
   "Jd2",
   "JdA1",
   "jDa1",
+  "jDaAaAa",
+  "JdAaAaA",
   "jDaAaA",
   "JdAaAa",
   "jDaAa",
   "JdAaA",
+  "jDaAb",
+  "JdAaB",
   "JdAa",
   "jDaA",
   "jDa",
@@ -1807,6 +1863,8 @@ TABLE_PATTERN = [
   "j",
   "J",
 
+  "K1",
+  "k1",
   "Ka1",
   "kA1",
   "KaAa",
@@ -1815,6 +1873,8 @@ TABLE_PATTERN = [
   "kAa",
   "Ka",
   "kA",
+  "kBa",
+  "KbA",
   "kB",
   "Kb",
   "Kc1",
@@ -1829,6 +1889,8 @@ TABLE_PATTERN = [
   "Kc",
   "kD",
   "Kd",
+  "KE",
+  "ke",
   "K",
   "k",
 
@@ -1865,6 +1927,10 @@ TABLE_PATTERN = [
   "MaD",
   "mA",
   "Ma",
+  "mB1",
+  "Mb1",
+  "mBa",
+  "MbA",
   "mB",
   "Mb",
   "M",
@@ -1971,13 +2037,47 @@ def savelinebyline(inputpath, placeholder)
     # 入力を1行ずつ読み込み、対応するファイルへそのまま書き出す。
     File.foreach(inputpath, mode: "r:BOM|UTF-8") do |line|
       bucket = bucket_name_for(line)
-      # handles[bucket] ||= File.open(outputpathfor(placeholder, bucket), "a:UTF-8")
+      # 振り分け先ごとの出力ファイルハンドルを保持する。
+      # handles[bucket] ||= File.open(outputpathfor(placeholder, bucket), "ab:UTF-8")
       # handles[bucket].write(line)
-      File.open(outputpathfor(placeholder, bucket), "a:UTF-8").write(line)
+
+      # 毎回保存先を閉じる
+      File.open(outputpathfor(placeholder, bucket), "ab:UTF-8").write(line)
     end
   ensure
     # 途中で例外が出ても、開いたファイルはすべて閉じる。
     # handles.eachvalue(&:close)
+  end
+end
+
+# 続けて同じファイルに出力するうちはハンドルを閉じない
+def savelinebyline_keep_handle(inputpath, placeholder)
+  last_file = ""  # ファイル名
+  handle = nil  # 出力ファイルハンドル
+
+  begin
+    # 入力を1行ずつ読み込み、対応するファイルへそのまま書き出す。
+    File.foreach(inputpath, mode: "r:BOM|UTF-8") do |line|
+      bucket = bucket_name_for(line)
+      target_path = outputpathfor(placeholder, bucket)
+      # 同じ名前でハンドルがあれば
+      if last_file == target_path && handle
+        handle.write(line)  # 書く
+        next
+      end
+
+      # 別の名前 or ハンドルなし
+      handle.close if handle  # 閉じる
+      handle = nil
+      handle = File.open(target_path, "ab:UTF-8")  # 開く
+      handle.write(line)  # 書く
+
+      last_file = target_path  # 覚えておく
+    end
+  ensure
+    # 途中で例外が出ても、開いたファイルは閉じる。
+    handle.close if handle
+    handle = nil
   end
 end
 
@@ -2027,15 +2127,17 @@ end
 
 starttime = Time.now
 
-# ファイルサイズで処理を分ける
+# ファイルサイズと予想処理時間
 fsize = File.size(inputpath)
 puts "file size: #{fsize}"
 eta = fsize * 3.45e-6
 # puts "#{eta} sec"
 puts "estimated processing time: #{put_duration(eta.to_f)}"
 
+# ファイルサイズで処理を分ける
 # if fsize >= 4 * 1024 * 1024
-  savelinebyline(inputpath, placeholder)
+  # savelinebyline(inputpath, placeholder)
+  savelinebyline_keep_handle(inputpath, placeholder)
 # else
 #   savelinesonce(inputpath, placeholder)
 # end
