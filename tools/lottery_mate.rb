@@ -21,7 +21,7 @@ unless File.exist?(input_path)
 end
 
 # ファイルからprobabilityで設定された確率で行を抽出してファイルに出力
-def draw_lines
+def draw_lines(input_path, probability, output_path)
   File.open(output_path, "wb") do |out|
     File.foreach(input_path) do |line|
       out.print line if rand < probability
@@ -33,7 +33,7 @@ end
 # 抽出確率を決めて行を抽出してファイルに出力
 # 差が開いた棋譜が多め
 # 0->0.1, 1->1.1, 2->log2(3)+0.1, 64->log2(65)+0.1
-def draw_lines_depth_adaptive
+def draw_lines_depth_adaptive(input_path, probability, output_path)
   File.open(output_path, "wb") do |out|
     File.foreach(input_path) do |line|
       m = /,-?([0-9.]+)/.match(line)
@@ -47,5 +47,5 @@ def draw_lines_depth_adaptive
   end
 end
 
-draw_lines()
-# draw_lines_depth_adaptive()
+draw_lines(input_path, probability, output_path)
+# draw_lines_depth_adaptive(input_path, probability, output_path)
