@@ -10,8 +10,8 @@ $outDir = "split"
 for ($i = $from; $i -le $to; $i++) {
     $inputFile = "$inDir\mate$i.txt"
     $output = "$outDir\mate$(([string]$i).PadLeft(2, "0"))"
-    $num = 100 * ($i - $from) / ($to - $from)
     Write-Progress -Activity "processing..." -Status "$inputFile" -PercentComplete $num
+    $num = 100 * ($i - $from) / ($to - $from)
     ruby .\tools\split_by_leading_char.rb $inputFile $output
 }
 
