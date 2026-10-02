@@ -1,7 +1,7 @@
 # split/mateXX*.txt を concat/mateN.txt に連結する
 
 FROM = 2
-TO = 12
+TO = 13
 
 IN_DIR = "split"
 OUT_DIR = "concat"
@@ -35,7 +35,7 @@ Dir.mkdir(OUT_DIR) unless Dir.exist?(OUT_DIR)
   puts "#{output_file}"
   next if input_files.empty?
 
-  File.open(output_file, "w:UTF-8") do |out|
+  File.open(output_file, "wb:UTF-8") do |out|
     input_files.each do |path|
       puts path
       File.foreach(path, mode: "r:UTF-8") do |line|
