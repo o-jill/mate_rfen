@@ -1263,6 +1263,7 @@ aGaDcBaAaAbBbAcDdCdB1aAa1a2aB4 b,16
 aGaDcBaAaAbBbAcDdDdA1Ba1b2B4 b,0
 aGaDcBaAaAbBbBaA1BaAbA2BcA2Bc2F1 b,4
 aGaDcBaAaAbBbBb2BaAb2Cc3Cb1dBa b,2
+aGaDcBaAaAbBbCaBfA1cBa2cC2A1a2A b,4
 aGaDcBaAaAbBdAaBdAa1AbBb2aBa1a2d2 b,26
 aGaDcBaAaAbBgBbAaA1aBaAb2aAb3dA2 b,14
 aGaDcBaAaAbBgBbAaA1aBaAb2aBa3c1Aa1 b,14
@@ -1275,6 +1276,11 @@ aGaDcBaAaAbCaBb1bAgAc1a1cA4aD1 b,24
 aGaDcBaAaAbCaBb1bAgBb1a1Bc4D1 b,40
 aGaDcBaAaAbCaBb1bAgBb1eA5D1 b,32
 aGaDcBaAaAbCaBb1bAhAb1a1aAaA3a1D1 b,32
+aGaDcBaAaAbCaCaBfAdBa3AaC2A1a2A b,-2
+aGaDcBaAaAbCaCaCeA1AbBa3bC2Ab2A b,-10
+aGaDcBaAaAbCaCaCeA1BaAb3AcA2A1a1aA b,2
+aGaDcBaAaAbCaCaCeA1BbAa3AcA2A1b1A b,-2
+aGaDcBaAaAbCaCaCeA1aAaBa1a1AaC2A1a2A b,2
 aGaDcBaAaB1BaD1AbFaE1Cc2Cb3 b,20
 aGaDcBaAaBaBbCa1BaAaAa2Bd2BaA1a1F1 b,20
 aGaDcBaAaBaBbCa2bAaAa2aAaAb2Ae1F1 b,28
@@ -1298,6 +1304,7 @@ aGaDcBaAdBf1BbCeB1eA4Bb2 b,16
 aGaDcBaAdBfCeBaAcBd1a3B4 b,42
 aGaDcBaAdEaAcAbAb2Bd2aBa3f1 b,36
 aGaDcBaBdAbAeBbA1aBaAa2aCb2aC1a2 b,14
+aGaDcBaCa1BbAcCd1Db2aBc2BbA1a1 b,46
 aGaDcBaCaCbAaB1AcB2AdC1e3e1 b,6
 aGaDcBaCaCbAaEcB1AcB1A2bA1a1dA2 b,12
 aGaDcBaCaCbAaEcB1AcB1A2c1a2Ad1 b,4
@@ -1901,6 +1908,8 @@ aGaDdAaAaAa1bAaBaAjBc1a1d4e1 b,24
 aGaDdAaAaAa1bAaCdE1aBbB1Bd5d b,8
 aGaDdAaAaAa1bAcBgAdDeA1A2Aa4 b,14
 aGaDdAaAaAa1bAhAcBaAaAaB2d3e2 b,4
+aGaDdAaAaAa1bCaA1aAcCaBbCaE1A3aB2 b,-6
+aGaDdAaAaAa1bCaA1aAcCbAaDa1D1A2D2 b,-6
 aGaDdAaAaAa1bCaA1aAdAcAaDa1aAb3aD2 b,6
 aGaDdAaAaAa1bCaA1aAdAdEf4D2 b,8
 aGaDdAaAaAa1bCb1aAaAdCbAbF1a2C3 b,16
@@ -2162,6 +2171,7 @@ aGaDdAaAaAbEcBaBcA1bAc2Ad2A1aB2 b,0
 aGaDdAaAaAbEcBaBcA1bAc2cA3AbB2 b,0
 aGaDdAaAaAbEcBaBcAcAc2cA3A1aB2 b,4
 aGaDdAaAaAc1bBb1bAd2aAbAa2Db2Cc b,-12
+aGaDdAaAaAc1bBc1aAcA2eA2cAb2f b,4
 aGaDdAaAaAc1bBeAd2BbAa2Bb1a2Cc b,-8
 aGaDdAaAaAcAaBaA1aAaAcAcAgA1a2aC4 b,16
 aGaDdAaAaAcAaBaA1bBbA1bBbA1aCb4e1 b,4
@@ -2257,8 +2267,15 @@ aGaDdAaAaAcAbAaBbAcA1aAaAc1aBc1bAa5 b,16
 aGaDdAaAaAcAbAaBbAcA1aAcB1cBa2cA4 b,18
 aGaDdAaAaAcAbAaBbAcA1cAbA1aAd2aAb4 b,22
 aGaDdAaAaAcAbAaBbAd1aAaAeBc2aAa5 b,12
+aGaDdAaAaAcAbAaBcAbBeBa1Fa3A4 b,-2
+aGaDdAaAaAcAbAaBcAcAeC1AaC1A1a1A4 b,-8
+aGaDdAaAaAcAbAaBcAcAeC1Da1A3A2a1 b,-10
+aGaDdAaAaAcAbAaBcAcAeC1aD1A2aA4 b,-6
 aGaDdAaAaAcAbAaBdDbAbB1a1Ca4C1a1 b,0
 aGaDdAaAaAcAbAaBfBeA1Ad3E4 b,-12
+aGaDdAaAaAcAbAaBgAeC2aC1A2aB3 b,-14
+aGaDdAaAaAcAbAaBgAeC2aE3A2a1 b,-10
+aGaDdAaAaAcAbAaBgAeC2bB1A1C4 b,-14
 aGaDdAaAaAcAbAb1cAaAaAcBb1a1AaA1a2E2 b,16
 aGaDdAaAaAcAbAb1cCaAi1AaA4E2 b,20
 aGaDdAaAaAcAbAb1cEcD1dA4E2 b,20
@@ -2399,6 +2416,7 @@ aGaDdAaAaAcBaAaAbAaAbAbAaAaAc1D1a2aA4 b,20
 aGaDdAaAaAcBaAaAbAaAbAbBbAcE1a2a5 b,-6
 aGaDdAaAaAcBaAaAbAaAbAc1aC2cB4e1 b,26
 aGaDdAaAaAcBaAaAbBbBaBcBa1A1bA1a1A2a2a b,-12
+aGaDdAaAaAcBaAaAbBjBa2D1a2B3a b,-14
 aGaDdAaAaAcBaAaAbCbAbAaAaAc1bB1a2a2A2 b,22
 aGaDdAaAaAcBaAaAbFbAdAa2AbA4D2 b,12
 aGaDdAaAaAcBaAaAcBaAb1aCb2dA4E1 b,6
@@ -2412,6 +2430,18 @@ aGaDdAaAaAcBaAaAdAbAbAaAbAc1AaA1b2A4 b,8
 aGaDdAaAaAcBaAaAfAcAbBa1b1aB2a1C3 b,0
 aGaDdAaAaAcBaAaBaAaAbBdAaAb1Ac3A1a1a2 b,0
 aGaDdAaAaAcBaAaBaAdBaAcCaAb3AaA2a3 b,-12
+aGaDdAaAaAcBaAaBaBdAaAcAbA1D1a2B4 b,-4
+aGaDdAaAaAcBaAaBaBdAaAcBaA1AbA4Ba3 b,-10
+aGaDdAaAaAcBaAaBaBdAaAcBaA1Ca4B2a1 b,-4
+aGaDdAaAaAcBaAaBaBdAaAcBaA1aC3aB4 b,18
+aGaDdAaAaAcBaAaBaBdAaAcBb1D2a1B4 b,-16
+aGaDdAaAaAcBaAaBaBdAaAdAaA1Bb4B1a2 b,0
+aGaDdAaAaAcBaAaBaBdAaAfA1Da3B4 b,6
+aGaDdAaAaAcBaAaBaBdAeC2AbA1A2Ba3 b,-12
+aGaDdAaAaAcBaAaBaBdAeC2Ca1A2B2a1 b,-14
+aGaDdAaAaAcBaAaBaBdAeC2aC1A1aB4 b,12
+aGaDdAaAaAcBaAaBaBdAfB2Bb1A2B1a2 b,-12
+aGaDdAaAaAcBaAaBaBdAgA2DaA2B4 b,6
 aGaDdAaAaAcBaAaBaCaCaBaAaAb1Ac2a1Aa4 b,-4
 aGaDdAaAaAcBaAaBaDaBbBb2a1cA3e2 b,-6
 aGaDdAaAaAcBaAaBbBbBbBaB1a1bB4D2 b,14
@@ -2505,6 +2535,7 @@ aGaDdAaAaAcBaBdBhAb3aCa3D2 b,12
 aGaDdAaAaAcBaBdD1bEa1bD2a1C3 b,6
 aGaDdAaAaAcBaBkAcAb2AaB4D2 b,4
 aGaDdAaAaAcBaCbAaEbAaAaA1a2AaA4E1 b,16
+aGaDdAaAaAcBaCbBf1BaBb2AaC2A1a2A b,-6
 aGaDdAaAaAcBaDaAaAaBaAaAe1AcAa4a3a b,4
 aGaDdAaAaAcBaDaAaAaBaBf1AbBa3a4a b,2
 aGaDdAaAaAcBaDaAaAaBaCe1AaCa2a5a b,-2
@@ -2613,6 +2644,7 @@ aGaDdAaAaAdAaAaBaAaBaBbAcA1a1Ca4Ca2 b,14
 aGaDdAaAaAdAaAaBaAaBaEaBa3aB2a1e2 b,22
 aGaDdAaAaAdAaAaBaAaBaEcA3aBa3e2 b,14
 aGaDdAaAaAdAaAaBaAaBaEd3Ca1a2Ca2 b,20
+aGaDdAaAaAdAaAaBcAbCaCaAa2e4c2 b,6
 aGaDdAaAaAdAaAb1aCcEd2d4e1 b,24
 aGaDdAaAaAdAaAbAaAaAcDaAb3aB1a2e2 b,10
 aGaDdAaAaAdAaAbAaAaBbDd3Cb3Ca2 b,12
@@ -2734,8 +2766,11 @@ aGaDdAaAaAfAgBeAcA2Ca3C1a2 b,4
 aGaDdAaAaAfAhCbAbB1a1BaA4Bb2 b,-10
 aGaDdAaAaAfBcAaAaAaAaBd1g4A1A2 b,0
 aGaDdAaAaAfBcAaAaAaAbCb1g1A3A3 b,12
+aGaDdAaAaAfBeAbBcBd1AaA4D3 b,-6
+aGaDdAaAaAfBeAbDaBc2Ac3D3 b,-4
 aGaDdAaAaAfBfBeBb1a1Bb2aC4 b,8
 aGaDdAaAaAfCbAaEaBbB1f5A1Aa1 b,2
+aGaDdAaAaAgAaA1aAbAaCaAc3AaAb2C1b1 b,6
 aGaDdAaAaAgAcAaBdBe2AbA1a1C4 b,8
 aGaDdAaAaAgAeBd1bAc2Bb1a1C1a2 b,28
 aGaDdAaAaAhAbAaAcAaBcBf1a3A4 b,4
@@ -2750,6 +2785,7 @@ aGaDdAaAaB1aBaDaAaBaBaAaAaA1A2F2d2 b,14
 aGaDdAaAaB1aBaDaAaBaBaAaBa1A2AbA1A2dA1 b,24
 aGaDdAaAaB1aBaDaAaBaBaCb1A1Bc1A2d2 b,14
 aGaDdAaAaB1aGaGaAaD2aCa2a1Bb2 b,10
+aGaDdAaAaB1bE1aAbDbBaCa1AaB1A1A1aB2 b,2
 aGaDdAaAaBbAbBcDd2AaC3aAa1A2f b,-2
 aGaDdAaAaBbAbCbAaCd1E3Ba1A3e b,0
 aGaDdAaAaBbAbCbAbAaAbAaAc1aBc1AaA6 b,2
@@ -2932,6 +2968,9 @@ aGaDdAaAeAdAgAb1bC2cB4e1 b,26
 aGaDdAaAeAdBaAdBaAbC1bD2a2aA3 b,-16
 aGaDdAaAeAdBaAdBaAcB1bD2a1a1A3 b,-12
 aGaDdAaAeAdBaBaDaAaAb2f4aBa2 b,6
+aGaDdAaAeAdBgAeBa1E2aA1A4 b,-14
+aGaDdAaAeAdBgAeBbE2a2A4 b,-20
+aGaDdAaAeAdBgAeC1aD1Aa2A4 b,-14
 aGaDdAaAeAe1CcEcB2e2d3 b,18
 aGaDdAaAeAgAaAaAa1cBaBa2C1A1D3 b,4
 aGaDdAaAeAgAf1bBaAcB1Aa5Aa1a b,12
@@ -3161,6 +3200,9 @@ aGaDdAaBbEbDdDbAaA2e3C1a2 b,20
 aGaDdAaBcCcAa1AcA1A1AcB2bBaA2f1 b,-6
 aGaDdAaBcDaBa1AcAb2bAaAa1a1AaAb3aCa b,2
 aGaDdAaBcEcBaAbA1CaAa2Db2aC1a2 b,28
+aGaDdAaBd1bAiAbAaAbBa1Ca2a1aA1a2 b,10
+aGaDdAaBd2aAeBbAbAaAbBa1Ac2a1d2 b,-20
+aGaDdAaBd2aAeBeAaAcAa1Cb1a1aA1a2 b,-2
 aGaDdAaBdAaAaAaAaBaAaA2AaAaB2aAc2f2 b,10
 aGaDdAaBdAaAbAbAaAeCaAcD2a2a2A2 b,0
 aGaDdAaBdAaAbAbAaAeDdCa2a3a1A2 b,12
@@ -3260,6 +3302,7 @@ aGaDdAaBeDeBcAcAbGa5A3 b,-4
 aGaDdAaBeDeBcAcAcF1a4A3 b,12
 aGaDdAaBeDeBcAeDbB4a1A3 b,-12
 aGaDdAaBeDeBgAaBbD2a3A3 b,-10
+aGaDdAaBfAaBa1aAbAcAeA2e3bB2 b,30
 aGaDdAaBfAbAdAgAaAc1bA2a1Aa2A2 b,10
 aGaDdAaBfAbAdAgBd1C1b1A3A2 b,6
 aGaDdAaBfAbAdAgBd1aB2a3aB2 b,24
@@ -3285,6 +3328,7 @@ aGaDdAaBfAbBgAcAbBa1d5aB2 b,8
 aGaDdAaBfAbBgAcAbBf3A3A2 b,20
 aGaDdAaBfAbBgAcAcAa1Cb2A3A2 b,6
 aGaDdAaBfAbBgAfBa1d3A1a1A2 b,12
+aGaDdAaBgAbB1bAbA2AaAc2Ae3cAa b,-16
 aGaDdAaBhAcAbCdAbAa1b1d2a4a b,8
 aGaDdAaBhAcAbCdAbAa1b1d3a3a b,4
 aGaDdAaBhAcAbCgAa1g7a b,4
@@ -3293,7 +3337,17 @@ aGaDdAaBhAcAcBeAaAa1a1e3a3a b,12
 aGaDdAaBhAcAcBeAaAa1g7a b,2
 aGaDdAaBhAcAdAdAbAa1a1e2a4a b,2
 aGaDdAaBhAcBbCcBaB1aD4aA1A2 b,22
+aGaDdAaBhBa1cBc1BcA2Ca3Ea1 b,20
+aGaDdAaBhBa1cBc1Bd2D1a1E2 b,26
+aGaDdAaBhBa1cBc1aAcA1aD3E2 b,42
+aGaDdAaBhBa1cBeAcA2D3E2 b,30
+aGaDdAaBhBa1cBiA2D3E2 b,28
+aGaDdAaBhBa1dAc1AcB2eA2bB2 b,20
+aGaDdAaBhBcDiA2aC4bB2 b,16
+aGaDdAaBhBfAc1AdA2e3bB2 b,16
+aGaDdAaBhBfAdAdA2aC4bB2 b,14
 aGaDdAaBlAcBgAa1b1d1a5a b,-2
+aGaDdAaC1aFbBf1BcA3dB1e2 b,20
 aGaDdAaC1bBaAb1dAb1dAa2aDb1aDa2 b,-2
 aGaDdAaC1bBaBa1cAbA1bAc1AaCc1aC1a2 b,10
 aGaDdAaC1bBbBdAbA1f1AaBd1aAa2a2 b,14
@@ -3314,6 +3368,7 @@ aGaDdAaCa1aAd2aAdA1aCbA1a1bBb2f b,6
 aGaDdAaCa1aAd2aAgCaAc1bAa1a2e1 b,4
 aGaDdAaCa1aBaAaA1cAbA1bAc1AaCc1aC1a2 b,14
 aGaDdAaCa1aBaAaBaAaAaCbAaC1aE4d2 b,-2
+aGaDdAaCa1aBaAb1aAaAcAcBaAbE2A2B1a1 b,16
 aGaDdAaCa1aBaAb1dAb1dAa2aDb1aDa2 b,-6
 aGaDdAaCa1aBaB1bAaEbCaBa1BaA4E1 b,4
 aGaDdAaCa1aBaBa1cAbA1f1AaCc1aC1a2 b,14
@@ -4529,6 +4584,7 @@ aGaDdAcAaAbAdAcAaCa1aCaAa2Ba3e2 b,-2
 aGaDdAcAaAbAdAcAaCa1bBaAa1d4Bb2 b,4
 aGaDdAcAaAbAdAcAcAa1dBa2bA1A1d3 b,-16
 aGaDdAcAaAbAdAcAcAgA2aC1A1C4 b,-10
+aGaDdAcAaAbBbBdC1AbAaC2aBa4e1 b,-12
 aGaDdAcAaAbCaBgAbAdA2Ca1A3B1a1 b,-6
 aGaDdAcAaAdAa2aAaAaA2aBfAaCa3Cb1 b,8
 aGaDdAcAaAdAa2cAb2bBb2aDb1g1 b,4
@@ -4581,6 +4637,7 @@ aGaDdAcAbG2AbD1AcBa1dB3e1 b,8
 aGaDdAcAbG2AbD1aAbBb1cB3e1 b,8
 aGaDdAcAbGa1AbBb1BcAa2cB3e1 b,0
 aGaDdAcAc1CfBcCaD1BbA4aBa2 b,-16
+aGaDdAcAc1aCc1aBbA2cAaA2cAb2f b,10
 aGaDdAcAcAaBaA1aAaBaBcEa1aBa3d3 b,18
 aGaDdAcAcAaBaAaBaAdBbBa1BbAa4c3 b,10
 aGaDdAcAcAaBb1aAaBbAcBb1a1aC3d1A1 b,24
@@ -5029,6 +5086,7 @@ aGaDdAcAgAaAaAaBaBbBbBf4a2a2 b,-4
 aGaDdAcAgAaAaAaCaAbAdAaAa1c1A4a2 b,0
 aGaDdAcAgAaAaAaCaAbCbAcAc6a2 b,4
 aGaDdAcAgAaAaAbAaBcAbBf4a2a2 b,0
+aGaDdAcAgAaBaAbAaA1AaAc3AaAb2C1b1 b,2
 aGaDdAcAgAgAeAaAd1aB4a1B2 b,0
 aGaDdAcAgAkBf1Bb4a1Aa2 b,4
 aGaDdAcAgAkBf1aBa3b1A3 b,6
@@ -5047,6 +5105,7 @@ aGaDdAcAgCaAbDbAaAaBf5a1a2 b,-6
 aGaDdAcAgCcEaAaAbBf4a2a2 b,-4
 aGaDdAcAgCcEcBaBf6b2 b,2
 aGaDdAcAgCcEfBaAd2A4a2 b,0
+aGaDdAcAhAa1aBaAb1bBc2AaBa2C1b1 b,4
 aGaDdAcAhAbDaBcAbA1cC4C3 b,20
 aGaDdAcAhAdDcAbA1a2aAb4e1 b,8
 aGaDdAcAkAaAfAf1a1c4a1A1a b,4
@@ -5408,6 +5467,7 @@ aGaDdBaBdCbAaAbDaBaDbBa2Aa4a2 w,-14
 aGaDdBaBdDaAcBaBbAbCa2c4d2 b,-8
 aGaDdBaBdDaAcBaBeC2d4d2 b,-6
 aGaDdBaBdDeBaAbBbAb3c1a2d2 b,12
+aGaDdBaBdDeDcBaA1a2Ca1a3A1c b,-20
 aGaDdBbA2aAaBa2aAbAa2aBaAb1aAaCa1Ga w,38
 aGaDdBbA2aBaAa2cBa2aAaBaA1aBcA1eC b,6
 aGaDdBbA2aBaAb1aAaAb2aDaBg1aE2 b,4
@@ -5728,6 +5788,20 @@ aGaDdBe1aBbAa1bCa1cCaA2cA3AcC b,6
 aGaDdBe1aBbBbAcBdD1aD1a2C3 b,28
 aGaDdBeB1cAa2AcAa2dAa1g2aDa b,10
 aGaDdBfAaAbBbAaAaBdC2aE5C1 b,-16
+aGaDdBfAaAeAbAaAbAaAaCdA3a1b4 b,-2
+aGaDdBfAaAeAcBeDcB3a2aA3 b,-8
+aGaDdBfAaAeAcBeDdA3aA1a4 b,-14
+aGaDdBfAaAeBaAaAbCaCb1aA3a1bA3 b,-16
+aGaDdBfAaAeBaAaAbCcAaA1c2aA1a4 b,-10
+aGaDdBfAaAeBaAaAbCcAb1Ba2a2aA3 b,-4
+aGaDdBfAaAeBaAaAbCcAf2a2a4 b,-4
+aGaDdBfAaAeBaAaAbEcA1aA2bA1a4 b,0
+aGaDdBfAaAeBaAaAbEd1B2b2aA3 b,2
+aGaDdBfAaAeBaAaAbEdC2b2a4 b,0
+aGaDdBfAaAeBaCbGb1aA3d4 b,-18
+aGaDdBfAaAeBbBbBaDcB3b1a4 b,-14
+aGaDdBfAaAeBbBbCaCaA1b3aA1b3 b,-12
+aGaDdBfAaAfAbBbAaAaCbAb3a2b3 b,-12
 aGaDdBfAbAaBaDaBaBaAaAa1Cb4A1b2 b,-10
 aGaDdBfAbAaBbCaBaAbAaAaA1Bb4A1b2 b,-12
 aGaDdBfAbAaBbCaBdCa2Ca4Bb2 b,2
@@ -5752,8 +5826,13 @@ aGaDdBfBbBcAcAeBa1a1Ea2Aa4 b,4
 aGaDdBfBcAcAbAk1E3Aa4 b,-4
 aGaDdBfBcAcAcAeAaA1a1BbA3Aa1a2 b,2
 aGaDdBfBcAcAiAb1a1Bb4Ca2 b,14
+aGaDdBfCeAaDbBaDb1bA2a2b3 b,-12
 aGaDdBgAdAaAdBaAcCc1aA1Aa4A2 b,20
 aGaDdBgBbAeAaDaE2bB4aC2 b,-4
+aGaDdBhAeAbCbBaDaA1b3aA1a1a2 b,-18
+aGaDdBhAeAbCbBaDb1Aa3a2c2 b,-16
+aGaDdBhAeAbCbBaDbBa3a2a1a2 b,-16
+aGaDdBhAeAbCbGbAb3a2a1a2 b,-14
 aGaDdBqAb1eAc1E1a1B4 b,-2
 aGaDdCaA1AaAaBaA1dC1eB1dB2f2 b,-20
 aGaDdCaA1AaBaAaA1aAbAaA2AcB1BaD1f2 b,-8
@@ -6032,6 +6111,8 @@ aGaDdCaAaAfA1cDcAaD1Ac3A1d2 b,4
 aGaDdCaAaAg1bDcBaAb1Bc3A1d2 b,-2
 aGaDdCaAaAg1cCdAaBa2Ac1A1A1d2 b,2
 aGaDdCaAb1AbAcBaDa1BaAc2aAaA3f1 b,-2
+aGaDdCaAb1BaAaDaAbCaCaAb1e4c2 b,10
+aGaDdCaAb1BaAaDaAbGc2f3c2 b,4
 aGaDdCaAb1BaBcCaAb1bAaAb2bBa3e1 b,4
 aGaDdCaAb1a1aAc1bAbAa2f1Be2dAa b,-18
 aGaDdCaAb1a1aAc2aAbAa1g1AaAd2dAa b,-2
@@ -6107,9 +6188,16 @@ aGaDdCaAcBaAaAbEdBeDa1A6a1 b,-10
 aGaDdCaAcBaAaAbEdBeE1a7a b,-16
 aGaDdCaAcBaAaAbEdBfAaB1A2a5 b,-6
 aGaDdCaAcBaAaAbEdBkA8 b,2
+aGaDdCaAcBaAaAcAgAbBa2D1a2B3a b,-12
 aGaDdCaAcBaAaAcCaAdBaAb1AbA3Ba4 b,4
 aGaDdCaAcBaAaAcDeAeBc1A4a3 b,-6
 aGaDdCaAcBaAaAlAa3bAbA2bAb3 b,10
+aGaDdCaAcBaAaBbAdAbAbC2Ca1A2B2a1 b,-10
+aGaDdCaAcBaAaBbAdAbAbC2aC1A1aB4 b,-4
+aGaDdCaAcBaAaBbAdAbAcB2Bb1A2B1a2 b,-12
+aGaDdCaAcBaAaBbAdAbAdA2DaA2B4 b,2
+aGaDdCaAcBaAaBbAdAeC1aD1A2B4 b,-10
+aGaDdCaAcBaAaBbAdAeC2AbA1A2Ba3 b,-10
 aGaDdCaAcBaAaBeAa1cAa2cAbA2bAb3 b,-4
 aGaDdCaAcBaAaBeB1cAa3bAc2bAb1a1 b,4
 aGaDdCaAcBaAaBeB1cAa3bAd1bAb3 b,6
@@ -6230,6 +6318,9 @@ aGaDdCaAdCfBaBaAaE1Bc1a4b2 b,6
 aGaDdCaAdDaA1cAbA1bAaC2bD2d2 b,-12
 aGaDdCaAdDaA1cAbCaAaBa2bC3d2 b,-10
 aGaDdCaAdDcAaCa1aD1cCb4d2 b,14
+aGaDdCaAdDeBaBcBd1AaA4D3 b,-8
+aGaDdCaAdDeBaCbBc1cA4D3 b,-4
+aGaDdCaAdDeBaDbAc2Ab4Da2 b,-4
 aGaDdCaAdDeBb1aEa1a1E2C3A b,-4
 aGaDdCaAdE1bCaBcAaCa1bC5c1 b,8
 aGaDdCaAeAbAbAaAaAcCeE4aA4 b,-8
@@ -6249,6 +6340,7 @@ aGaDdCaAeAeAaAaAaAcAc1a1Da2C4 b,-4
 aGaDdCaAeBaAbAaAaBcCaAb1aBa1a4Aa2 b,8
 aGaDdCaAeCcAbAgAa2aCaA4d2 b,8
 aGaDdCaAfAaAbAaAbAbBfAa1Aa1a4Aa2 b,10
+aGaDdCaAfAaCbAbDaBaAa2e4c2 b,4
 aGaDdCaAfAc1aAbAb2aAd2Ae3e b,-10
 aGaDdCaAfB1AcBaBbAaD1Ac3A1d2 b,6
 aGaDdCaAfB1dBaAcAaBa2Ac1A1A1d2 b,-6
@@ -6303,6 +6395,7 @@ aGaDdCc1aDb1cCcE2aBbAa1aAa2aA1 b,4
 aGaDdCc1aEa1cCa1aEa1aDb1aAa1Aa2 b,4
 aGaDdCc1bAd1bAbA2aBaC1Db2g1 b,0
 aGaDdCc1bBaCdDeC2bAa1A3Ca1 b,22
+aGaDdCc1bBbA1bBaAaAcAe1Ac3Cb2 b,14
 aGaDdCc1bCaA1eB1bAaDcC4E1 b,22
 aGaDdCc2AbAaA1BaAaCdAaBb1bA2a1E1 b,2
 aGaDdCc2AdA1BcCdAaBb1bA2a1E1 b,0
@@ -6331,6 +6424,7 @@ aGaDdCcAbBbBaAaD1eB1cA1A2bB1A2 b,-20
 aGaDdCcAbBbBaAaD1eB1eA2a1B1A2 b,0
 aGaDdCcAcAbBaAcCcBaBcBa6Aa2 b,4
 aGaDdCcAfBaAdBaAdBc1Aa2a3Aa2 b,-2
+aGaDdCd1BcDdDaBaAa1f4c2 b,10
 aGaDdCd1a1e2dAa2f1aBe1dAa b,4
 aGaDdCd1aBbAa2aDeCa2cB2f1 b,4
 aGaDdCeAbAb1eA1A1aE1BaAb2f2 b,14
@@ -6450,6 +6544,15 @@ aGaDdDdAbAcCaAaAa1Eb2bAa1a2d2 b,16
 aGaDdDdAbAcCaAaB1AaE1cAa4d2 b,6
 aGaDdDdAbAcCdA1DbA2bAb3d2 b,8
 aGaDdDdAbAeAaAaBaG2bAa4d2 b,-6
+aGaDdDdAcBaBaCiA2aC4bB2 b,22
+aGaDdDdAcBaCaBc1eA1bC4bB2 b,22
+aGaDdDdAcBaFc1AdA2aBa4e1 b,20
+aGaDdDdAcBaFc1AdA2e3bB2 b,14
+aGaDdDdAcBaFc1Ae2aC1a2bB2 b,28
+aGaDdDdBaAbA1cAbA2aBc2Ae3cAa b,-8
+aGaDdDdBaAbA2AaAbA2aBc1g3cAa b,-4
+aGaDdDdBaAbA2AdA2AaAc2f1a1cAa b,4
+aGaDdDdBaAbA2bAbA1g2f3cAa b,-14
 aGaDdDdBaAdAaAbAcAbA1b1d3A1a1Aa1 b,20
 aGaDdDdBaAdAaAbAcAc1b1e2A1a1A2 b,24
 aGaDdDdBaAdAaAfAf1cA3A1a1A2 b,6
@@ -6468,6 +6571,7 @@ aGaDdDdCfAcCbE1a1aC4c2 b,-2
 aGaDdDeAaCcBaAdAaCb1D1a2B4 b,10
 aGaDdDeEcBaAcAbCb1aC1b2A4 b,6
 aGaDdDfAaAa1aAbAaA1dAa1AbBaA2a1d2 b,8
+aGaDdDfAaBa1cBc1AbAaA2dA3bB1A b,20
 aGaDdEa1CaBaAa1aAaAaA1bAaAaA2bBaA2e1 w,42
 aGaDdEa1aAbAa2bAd1bAc2AaCb1g1 b,20
 aGaDdEa1aAbAa2bBaAaAaBf1bBa3e1 b,23
@@ -6833,6 +6937,7 @@ aGaDeAbAa1aAbAa1CaAbB1BcB1Da1A2e1 b,16
 aGaDeAbAa1aAbAaBaAcCbAaDa1aAb1A1c4 b,22
 aGaDeAbAa1aAbAb1dAbAe3BaBa2g1 b,16
 aGaDeAbAa1bAaAb1cBbAbAh1a2aAc3a b,6
+aGaDeAbAa1cBeAdAaCaC1E2A2B1a1 b,4
 aGaDeAbAa1fAcAbB1bAaAa1Aa1Bb3f1 b,8
 aGaDeAbAaA1bBaBbBaC1BbD1aBa3aC1a1 b,14
 aGaDeAbAaA1bBaBbBaC1aAbC2aD2aC1a1 b,0
@@ -6845,6 +6950,7 @@ aGaDeAbAaAaAaBbAaBaBaDbAaA2aA1b4d1 b,18
 aGaDeAbAaAaAaBbAbAaA1BaBbA1A1Bc1A1Bb3 b,28
 aGaDeAbAaAaBcA1aBbB1bAaAaBbBc3Aa2a1 b,4
 aGaDeAbAaAbDaAcBaBdD1cB2a1a1A3 b,-6
+aGaDeAbAaAcBaBbAbAaAaG1Da2A2A2a1 b,-10
 aGaDeAbAaDaAbA1AaCaA1aFa1E3AbA2 b,-8
 aGaDeAbAb1aAaAbA1aAdAbAdA2d1A1e2 b,18
 aGaDeAbAb1aAaBb1aAaAeBd2Ac1a2d1a b,16
@@ -7060,6 +7166,7 @@ aGaDeBaAeBeCdCaA1aA1cA5d1 b,4
 aGaDeBaAeBfAfD1a2BaA4Ad1 b,-8
 aGaDeBaAeBfBeBaA1a2AbA3A1d1 b,2
 aGaDeBaAeBmBaAb2d5d1 b,0
+aGaDeBaAeCfAaDaAd2Ac3D3 b,-10
 aGaDeBaAjBbAcA1f2Ac3A1d1 b,2
 aGaDeBaC1aAaDaAaEbBaCa1Ca4C1a1 b,4
 aGaDeBc1aAcAaAaBd1aAd2aBc2aAc1a1 b,32
@@ -7340,6 +7447,8 @@ aGaDeDaAaBbAaAaBcBgAcB3b1A4 w,0
 aGaDeDaAaCaAaAaBaAaBgAcB3b1A4 w,-2
 aGaDeDaAbAaDaAbDaBaB2cB3aD3 w,-16
 aGaDeDaAdAbAbAaAaBbBb1AaC1a2Ac4 b,0
+aGaDeDbAaAaAbBbAcBfBf3a5 b,16
+aGaDeDbCaAcBaAdBfA1f2a5 b,20
 aGaDeDcAaBaAbBaAaAaDaAb3Bb4B1aA b,22
 aGaDeDcAaBaBaBcA1BdC1d4Ac2 b,-4
 aGaDeDcAaBeAdEaAaA3aAb4d1 b,-8
@@ -7350,6 +7459,7 @@ aGaDeDcAbAaBaAdA1CcB1Ad4Ac2 b,-24
 aGaDeDcAbAaBaAdA1aBcBaA1Ab4Ac2 b,-24
 aGaDeDcAbAaBaBcA1bAcBa1Bb4Ac2 b,-10
 aGaDeDcAbAdAbCbFbA1A1a1a1c4 b,2
+aGaDeDcBaAbAaAaAcAaAeAa1e1a1a5 b,6
 aGaDeDcBaAhAeD2cB3C2A1 b,16
 aGaDeDdBaAa1bCaA1bAbAb2Cb3B1bA b,-4
 aGaDeDeAaAa1bAcA1aAcA1b1bAb1a3D b,-6
@@ -7481,6 +7591,7 @@ aGaDfAaAb1aAaAeBf1dA2aAb3F1 b,40
 aGaDfAaAb1aAaBaA1AeEbAa2bBa3d1a b,-4
 aGaDfAaAb1aAaBb1bAcA2bAbA2bBaA2f b,8
 aGaDfAaAb1aAaBdCe1AcA2Bb3F1 b,38
+aGaDfAaAb1aAbAaCcAaEc3AaAb2C1b1 b,4
 aGaDfAaAb1aCcAbBcAcAc2BaA3E2 b,8
 aGaDfAaAb1aCcAgAbBc2BaA3E2 b,8
 aGaDfAaAb1aCcAgAcAc1dA3A1aB2 b,-2
@@ -7568,6 +7679,7 @@ aGaDfAaAfAnAaA2Ea4Bb2 b,16
 aGaDfAaAfBb1AbBa1BcB3dB1e2 b,2
 aGaDfAaAfBb1dAaDd2Db3A1Ab1 b,-4
 aGaDfAaAfBb1dEcC2Cb3A1Ab1 b,-14
+aGaDfAaAfBcAdBaAaAbB2AcA4Aa2A b,-12
 aGaDfAaAfCeBb1aAbAb2Ca4Cb1 b,2
 aGaDfAaAqAcC2d4F2 b,6
 aGaDfAaB1dCdBaAdAaCa1AaB3C1a2 b,10
@@ -7639,9 +7751,11 @@ aGaDfBbBaAaAaDdDdB3c3e2 b,-10
 aGaDfBc1dA1aBcB1Bd2A1aBb2g b,10
 aGaDfBc1f1BbBaCdB2d1A2e1 b,22
 aGaDfBdAaAaAcBfAaAaCaC1a2aA4a1 b,-8
+aGaDfBe1aAfAbAbAdBa1Bb2a1aA1a2 b,-14
 aGaDfBfAaAdAeAaBaG1a4Aa2a1 b,-6
 aGaDfBfAaAdAeAbAaG1a3A1a2a1 b,-18
 aGaDfBfCfAcAeGa6A1a1 b,-4
+aGaDfC1a1cBbBdAa1BcB2dB1e2 b,3
 aGaDfCa1AbCa1GaDaAaB1bAb3aBa2 b,10
 aGaDfCa1AbCa1jBaAaA2AaAb2Da2 b,10
 aGaDfCa1AbCa1jBaAaA2bAaA3aD1 b,12
@@ -7776,6 +7890,7 @@ aGaDgBa1dBa1bCbAaAaCaDaAaA1a3a2A b,8
 aGaDgBa1dBa1cBbAaAaAaAaBcC1a1a4A b,8
 aGaDgBa1dBa1cBbAaBaAbEbA1a4a1A b,8
 aGaDgBa1dC1eB1bAaB2eA2G1 b,0
+aGaDgBaA1cBaAaAcAaAaBcGa4a1A1a1 b,-4
 aGaDgBaAaBaDaAbC1bAaA1A1aAdA3Ab1A1 b,-4
 aGaDgBaAaCaCaAaBaA1aD1a1aCd2A1a1A1 b,12
 aGaDgBaAbAdA1bAcA1cAaB2aAaC2AaA2A b,0
@@ -7901,6 +8016,7 @@ aGaDhAb1a1aAc1bAbAa2f1Be2dAa b,-16
 aGaDhAb1aAaAc1Cd2Bd2AbAb2f b,-26
 aGaDhAb1aAaAc1bAd2bAc2cAb1a1e b,-10
 aGaDhAb1aAaBc1AbAaAgA2e3e1 b,20
+aGaDhAb1aAcAa1aBaAb1AaBcA1AaBa2C1b1 b,0
 aGaDhAb1aCc2BbAa2AaAc1CaAb2dAa b,-14
 aGaDhAb1aCcAgAbBc2BaA3E2 b,8
 aGaDhAb1aCcBfA1aAd2Bb3Ea1 b,4
